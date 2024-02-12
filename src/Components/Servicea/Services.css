@@ -1,0 +1,82 @@
+.Services{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    border-bottom: 1px solid var(--border-color);
+
+}
+.Services h1.title{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: var(--title);
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.Services h1.title::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:2px ;
+    background-color: var(--blue-color);
+    top: 123%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+.Services h1.title:hover::before{
+    width: 100%;
+}
+.Services h1.title:hover{
+    color: var(--blue-color);
+}
+.Services .container .row .cards
+{
+    height: 205px;
+    color: var(--title);
+    background-color: var(--bg-card);
+    border: 1.5px solid var(--blue-color);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    padding: 30px 20px;
+}
+
+.Services .container .row .cards:hover{
+    scale: 0.8;
+}
+
+
+.Services .container .row .cards i{
+    font-weight: bold;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.Services .container .row .cards i:hover{
+    color: var(--blue-color);
+    font-size:40px ;
+}

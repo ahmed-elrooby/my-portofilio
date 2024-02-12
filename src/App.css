@@ -1,0 +1,27 @@
+.container .up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--blue-color);
+    position: fixed;
+    bottom: 15px;
+    z-index: 11111;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+.container .up:hover{
+    background-color: white;
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+}

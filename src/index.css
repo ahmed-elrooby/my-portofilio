@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;400&display=swap'); 
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+:root{
+  --primary:rgb(0, 0, 0);
+  --secondary-bg:hsl(0, 0%, 9%);
+  --border-color:rgba(63, 63,70,0.4);
+  --title:rgb(244, 244, 245);
+  --subtitle:rgb(161 161 170);
+  --bg-navbar:rgb(39, 39, 42);
+  --blue-color:#5dbcfc;
+  --main-padding:50px;
+  --bg-nav:#ddd;
+  --background-card: rgba(244, 244, 245, 0.598);
+  --bg-card:rgba(0, 0, 0, 0.658);
+  
+
+}
+.light{
+  --primary:#fff;
+  --secondary-bg:hsl(0, 0%, 9%);
+  --border-color:rgba(63, 63,70,0.4);
+  --title:rgba(0, 0, 0, 0.829);
+  --subtitle:rgb(0 0 0 / 69%);
+  --bg-navbar:rgb(244, 244, 245);
+  --blue-color:#5dbcfc;
+  --main-padding:50px;
+  --bg-nav:rgba(0, 0, 0, 0.422);
+  --background-card: rgba(0, 0, 0, 0.263);
+  --bg-card:#ddddddaf;
+
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  background-color: var(--primary);
+  color: #fff;
+  font-family:"Montserrat Alternates" !important ;
+
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue-color);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* 
+  ::-webkit-scrollbar {
+    width: 0.88rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  ::-webkit-scrollbar-track {
+    border: 7px solid #292c3b;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    background-color: #d4d4d8;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 7px;
+
+  } 
+   */
+  /* for Firefox */
+  /* html {
+    scrollbar-color: var(--blue-color) #3d4a59;
+  }  */
