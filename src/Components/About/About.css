@@ -1,0 +1,217 @@
+.about{
+    padding-top:var(--main-padding);
+    padding-bottom:var(--main-padding);
+    border-bottom: 1px solid var(--border-color);
+}
+.about .container .bio {
+padding: 10px 0;
+}
+.about .container .bio h3{
+    text-transform: capitalize;
+    margin: 25px 0;
+    color: var(--title);
+}
+.about .container .bio h3 span{
+    color: var(--blue-color);
+    font-size: 31px;
+    font-weight: bold;
+}
+.about .container .bio p{
+    line-height: 1.8;
+    color: var(--subtitle);
+    
+}
+.about .container .row .birthday p{
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    gap: 18px;
+    width: 100%;
+    padding: 5px 0px;
+    color: var(--title);
+    font-size: 20px;
+    align-items: center;
+}
+.about .container .row .birthday a{
+    text-decoration: none;
+    color: var(--title);
+    border: 1px solid var(--blue-color);
+    padding: 7px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+.about .container .row .birthday a:hover{
+    background: var(--blue-color);
+    color: white;
+
+}
+
+.about .container .row .age{
+        display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px
+}
+.about .container .row .age p{
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    gap: 10px;
+    color: var(--title);
+    font-size: 20px;
+}
+.about .container .row .age p span{
+    color: var(--subtitle);
+    font-size: 20px;
+
+}
+
+
+
+.about .container .row .progres{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: capitalize;
+}
+.about .container .row .progres .pop{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 3px
+}
+.about .container .row .progres .pop h4{
+    color: var(--title);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.about .container .pare .progres{
+    margin-left: 50px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about .container .pare .progres .pop{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 3px
+}
+.about .container .pare .progres .pop h4{
+    color: var(--title);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.height{
+    height: 15px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:992px) {
+    .about .container .pare{
+        gap: 15px;
+    }
+    .about .container .pare .progres{
+        margin: auto !important;
+        width: 100%;
+    }
+    .height{
+        width: 87%;
+    }
+}
+@media screen and (min-width:375px) and (max-width:767px) {
+    .about .container .bio p{
+        width: 90%;
+    }
+    .about .container .pare .age {
+    font-size: 18px;
+    }
+    .about .container .pare .progres{
+        font-size: 18px;
+    }
+    .about .container .bio p{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about h1.title{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: var(--title);
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.about h1.title::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:2px ;
+    background-color: var(--blue-color);
+    top: 123%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+.about h1.title:hover::before{
+    width: 100%;
+}
+.about h1.title:hover{
+    color: var(--blue-color);
+} */

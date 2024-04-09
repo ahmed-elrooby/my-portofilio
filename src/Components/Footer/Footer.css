@@ -1,0 +1,39 @@
+.footer{
+    padding-top:var(--main-padding);
+    padding-bottom:var(--main-padding);
+    color: var(--title);
+}
+
+
+.footer .row ul{
+    display: flex;
+    gap: 22px;
+    list-style: none;
+    text-transform: capitalize;
+    font: 22px;
+    font-weight: bold;
+}
+.footer .row ul li a{
+    text-decoration: none;
+    color: var(--title);
+    transition: all 0.3s ease;
+}
+.footer .row ul li a:hover{
+    color: var(--blue-color);
+}
+.footer .row p{
+
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .footer ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+}
