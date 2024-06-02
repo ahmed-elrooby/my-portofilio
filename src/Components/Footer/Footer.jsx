@@ -17,17 +17,17 @@ export default function Footer() {
                 }}        
         
         className="container">
-            <div className="row">
+            <div className="row align-items-center">
             <div className="col-12 col-lg-6 col-md-6">
             <ul>
                     <li><a href={<Home />}>home </a></li>
                     <li><a href="#about">about </a></li>
                     <li><a href="#Services">Services</a></li>
-                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#Projects">projects</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
-            <div className="col-12 col-lg-6 col-md-6">
+            <div className="col-12 col-lg-6 col-md-6 text-center align-items-center">
             <p>Copyright © 2024 <span style={{color:"var(--blue-color)",fontSize:"23px",fontWeight:"bold"}}>Ahmed el rooby</span>. All Rights Reserved.</p>
 
             </div>

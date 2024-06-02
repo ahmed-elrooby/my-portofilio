@@ -25,3 +25,22 @@
     border: 1px solid var(--blue-color);
     color: var(--blue-color);
 }
+.container .up:hover{
+    animation: scale 0.4s infinite;
+    -webkit-animation: scale 0.9s infinite;
+}
+@keyframes scale {
+    0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+}
+
+       
+        
+}

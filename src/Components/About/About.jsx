@@ -12,6 +12,7 @@
 
     return (
         <>
+
         <div className="about" id="about">
             <motion.div
                 initial={{ scale: 0.5 }}

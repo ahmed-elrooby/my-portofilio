@@ -10,6 +10,7 @@ export default function Contact() {
 
   return (
     <>
+
       <div className="contact" id="contact">
       <motion.div
                 initial={{ scale: 0.5 }}

@@ -47,7 +47,7 @@
                     <p className="description">
                     hello i am ahmed i have been developing websites i am
                     frontEnd developer by using ( html, html5 ,css ,css3
-                    ,javascript, react js ,bootstrap , scss and typescript
+                    ,javascript, react js ,bootstrap and typescript
                     shortly). i create responsive websites that are displayed on
                     all devices ,desktops and smart Phones
                     </p>

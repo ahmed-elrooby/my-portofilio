@@ -1,5 +1,5 @@
 .footer{
-    padding-top:var(--main-padding);
+    padding-top:20px;
     padding-bottom:var(--main-padding);
     color: var(--title);
 }
@@ -12,6 +12,7 @@
     text-transform: capitalize;
     font: 22px;
     font-weight: bold;
+    align-items: center;
 }
 .footer .row ul li a{
     text-decoration: none;
@@ -32,7 +33,8 @@
 @media screen and (max-width: 992px) {
     .footer ul{
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
+        /* align-items: center; */
     }
 
 

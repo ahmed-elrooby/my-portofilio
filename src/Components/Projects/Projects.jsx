@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 export default function Projects() {
   return (
     <>
+
       <div className="project" id="Projects">
         <h1 className="title text-capitalize">my projects </h1>
         <Swiper

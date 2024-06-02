@@ -108,8 +108,7 @@ button:disabled{
     opacity: 0.4;
     cursor:not-allowed;
 }
-.contact .container .contact-animation img{
-    width: 350px;
+.contact .container .contact-animation img:hover{
     animation: scale 0.4s infinite;
     -webkit-animation: scale 0.9s infinite;
 }
@@ -124,9 +123,7 @@ button:disabled{
             -ms-transform: scale(1.1);
             -o-transform: scale(1.1);
 }
-        100% {
-            transform: scale(1);
-        }
+       
         
 }
 
