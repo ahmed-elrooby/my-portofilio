@@ -29,6 +29,7 @@
     animation: scale 0.4s infinite;
     -webkit-animation: scale 0.9s infinite;
 }
+/* there is commit for test update of folders on github  */
 @keyframes scale {
     0% {
             transform: scale(1);
