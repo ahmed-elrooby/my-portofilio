@@ -22,7 +22,7 @@
             
             
             className="container">
-            <div className="row mb-5 pb-5 ">
+            <div className="row mb-5 pb-5 align-items-center ">
                 <div className="col-12 col-lg-6 col-md-6 ">
                 <div className="dataAbout">
                     <img src={require("../../images/me.jpeg")} alt="me" />
