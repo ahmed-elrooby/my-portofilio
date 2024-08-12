@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 export default function Projects() {
   return (
     <>
-
       <div className="project" id="Projects">
         <h1 className="title text-capitalize">my projects </h1>
         <Swiper
@@ -98,10 +97,7 @@ export default function Projects() {
               <div className="parent">
                 <div className="projects">
                   <div className="card">
-                    <img
-                      src={require("../../images/home.png")}
-                      alt=""
-                    />
+                    <img src={require("../../images/home.png")} alt="" />
                     <div className="content">
                       <h2 className="title">Movies</h2>
                       <p>
@@ -114,7 +110,7 @@ export default function Projects() {
                         movies right at your fingertips.
                       </p>
                       <div className="icon">
-                      <a href="https://moviesproject-one.vercel.app/">
+                        <a href="https://moviesproject-one.vercel.app/">
                           <i class="fa-solid fa-link"></i>
                         </a>
                         <a href="https://github.com/ahmed-elrooby/moviesproject.git">
@@ -296,8 +292,12 @@ export default function Projects() {
                         html css only to desgin this website.
                       </p>
                       <div className="icon">
-                        <i class="fa-solid fa-link"></i>
-                        <i class="fa-brands fa-github"></i>
+                        <a href="https://ahmed-elrooby.github.io/coffee-project/coffe.html">
+                          <i class="fa-solid fa-link"></i>
+                        </a>
+                        <a href="https://github.com/ahmed-elrooby/coffee-project">
+                          <i class="fa-brands fa-github"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -305,6 +305,54 @@ export default function Projects() {
               </div>
             </motion.div>
           </SwiperSlide>
+
+          <SwiperSlide>
+            <motion.div
+              initial={{ scale: 0.5 }}
+              transition={{
+                duration: 0.7,
+                type: "tween",
+              }}
+              whileInView={{
+                scale: 1,
+              }}
+              className="container"
+            >
+              <div className="parent">
+                <div className="projects">
+                  <div className="card">
+                    <img src={require("../../images/exclusive.png")} alt="" />
+                    <div className="content">
+                      <h2 className="title"> Exclusive E-Commerce</h2>
+                      <p>
+                        I've recently been working on an e-commerce platform
+                        called Exclusive. This project has been a great
+                        opportunity to blend modern technologies and best
+                        practices in web development. Frontend: Next.js: For
+                        seamless server-side rendering and optimized
+                        performance. Tailwind CSS: For efficient styling and a
+                        responsive design. React Lucide: To integrate beautiful
+                        and scalable icons. Skeleton Loading Screens: Enhancing
+                        the user experience by providing a smooth loading
+                        experience.Backend: Strapi: Providing a robust and
+                        flexible headless CMS that makes content management a
+                        breeze.
+                      </p>
+                      <div className="icon">
+                        <a href="https://www.linkedin.com/posts/ahmed-eid-8b66682a6_reactjs-nextjs-tailwindcss-activity-7228547088895115264-PEyF?utm_source=share&utm_medium=member_desktop">
+                          <i class="fa-solid fa-link"></i>
+                        </a>
+                        <a href="https://github.com/ahmed-elrooby/-e-commerce">
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </SwiperSlide>
+
           <SwiperSlide>
             <motion.div
               initial={{ scale: 0.5 }}

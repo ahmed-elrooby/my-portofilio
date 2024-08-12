@@ -31,9 +31,10 @@
                     <span style={{ color: "var(--blue-color)" }}>
                         <Typewriter
                         words={[
-                            "  Front-End Developer",
+                            " Front-End Developer",
                             " UI/UX Developer",
                             " React.js Developer",
+                            " Next.js Developer"
                         ]}
                         loop={5}
                         cursor
